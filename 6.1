@@ -1,0 +1,21 @@
+print("LOGIN SYSTEM\n")
+username = input("Enter Username: ")
+password = input("Enter Password: ")
+greet = """
+\33[33m
+Long time no see..
+how have you been...
+it seems today it going to rain
+but no complain...
+
+please enjoy the rainy day!\33[0m
+"""
+if username == "Kit@Kat" and password == "password":
+  print("Login Success!",greet)
+elif username == "Cod@Cat":
+  print("Login Success!",greet)
+elif username == "Login":
+  print("Login Success!",greet)
+else:
+  print("UserName or Password Not Exist")
+  print("\33[31m>> Programa Exit!")
